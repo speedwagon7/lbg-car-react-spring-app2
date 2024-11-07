@@ -1,0 +1,14 @@
+com\qa\cardatabase\web\CarController.class
+com\qa\cardatabase\data\entity\Owner.class
+com\qa\cardatabase\data\entity\User.class
+com\qa\cardatabase\SecurityConfig.class
+com\qa\cardatabase\data\repository\UserRepository.class
+com\qa\cardatabase\LoginFilter.class
+com\qa\cardatabase\service\UserDetailsServiceImpl.class
+com\qa\cardatabase\data\entity\Car.class
+com\qa\cardatabase\domain\AccountCredentials.class
+com\qa\cardatabase\CardatabaseApplication.class
+com\qa\cardatabase\data\repository\OwnerRepository.class
+com\qa\cardatabase\AuthenticationFilter.class
+com\qa\cardatabase\data\repository\CarRepository.class
+com\qa\cardatabase\service\AuthenticationService.class
