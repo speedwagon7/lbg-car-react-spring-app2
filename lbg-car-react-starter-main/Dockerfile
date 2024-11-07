@@ -23,7 +23,7 @@ FROM nginx:alpine
 COPY --from=build /app/build /usr/share/nginx/html
 
 # Expose port 80 to access the app
-EXPOSE 8000
+EXPOSE 80
 
 # Command to run nginx (by default, nginx will serve the static files)
 CMD ["nginx", "-g", "daemon off;"]
