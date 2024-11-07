@@ -18,7 +18,7 @@ services:
   # React frontend
   frontend:
     build:
-      context: ./react-frontend  # Path to your React project
+      context: ./lbg-car-spring-app-starter-main  # Path to your React project
     container_name: react-frontend
     ports:
       - "80:80"
