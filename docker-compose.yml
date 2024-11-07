@@ -21,7 +21,7 @@ services:
       context: ./lbg-car-spring-app-starter-main  # Path to your React project
     container_name: react-frontend
     ports:
-      - "80:80"
+      - "8000:8000"
 
   # MySQL database
   db:
