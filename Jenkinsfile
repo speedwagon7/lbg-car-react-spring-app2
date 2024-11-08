@@ -2,11 +2,6 @@ pipeline {
     agent any
 
     stages {
-        stage('Clone Repositories') {
-            steps {
-                git 'https://github.com/speedwagon7/lbg-car-react-spring-app2.git'
-            }
-        }
 
         stage('Build Docker Images') {
             steps {
