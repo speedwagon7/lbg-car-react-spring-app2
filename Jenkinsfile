@@ -7,10 +7,10 @@ pipeline {
             steps {
                 script {
                     // Build the Spring Boot backend Docker image
-                    sh 'docker build -t lbg-car-spring-app-starter-main ./springboot-backend'
+                    sh 'docker build -t springboot-backend ./lbg-car-spring-app-starter-main'
 
                     // Build the React frontend Docker image
-                    sh 'docker build -t lbg-car-react-starter-main ./react-frontend'
+                    sh 'docker build -t  react-frontend ./lbg-car-react-starter-main'
                 }
             }
         }
